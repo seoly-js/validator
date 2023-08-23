@@ -1,0 +1,19 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "javascript validator",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "test": ""
+  },
+  "author": "seoly0",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

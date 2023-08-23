@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "declaration": true,
+    "sourceMap": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "baseUrl": ".",
+  },
+  "include": [
+    "src/**/*"
+  ],
+}

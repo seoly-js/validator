@@ -24,10 +24,6 @@ export default class<T = Target> {
     }
   }
 
-  test(rules: Rules<T>) {
-
-  }
-
   validate<S extends T>(target: S): Array<ValidationError> {
     const keys = Object.keys(target)
     const errors = keys.reduce((result, key) => {

@@ -20,8 +20,6 @@ class default_1 {
             required: constraint.required ?? false
         };
     }
-    test(rules) {
-    }
     validate(target) {
         const keys = Object.keys(target);
         const errors = keys.reduce((result, key) => {

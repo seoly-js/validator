@@ -1,5 +1,5 @@
 {
-  "name": "validator",
+  "name": "@seoly0/validator",
   "version": "1.0.0",
   "description": "javascript validator",
   "main": "dist/index.js",

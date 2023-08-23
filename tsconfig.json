@@ -5,6 +5,7 @@
     "removeComments": false,
     "declaration": true,
     "sourceMap": true,
+    "sourceRoot": "dist/",
     "target": "ESNext",
     "module": "CommonJS",
     "outDir": "dist",
